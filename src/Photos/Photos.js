@@ -1,41 +1,41 @@
 export const photos = [
   {
-    src: '/SplashPhotos/window.jpg',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/window.jpg',
     width: 4,
     height: 3
   },
   {
-    src: '/SplashPhotos/succulents.jpg',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/succulents.jpg',
     width: 4,
     height: 3
   },
   {
-    src: '/SplashPhotos/swapi-box.png',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/swapi-box.png',
     width: 4,
     height: 3
   },
   {
-    src: '/SplashPhotos/barbarashark.jpg',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/barbarashark.jpg',
     width: 4,
     height: 3
   },
   {
-    src: '/SplashPhotos/newflix.png',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/newflix.png',
     width: 4,
     height: 3
   },
   {
-    src: '/SplashPhotos/julianmeditating.jpg',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/julianmeditating.jpg',
     width: 4,
     height: 3
   },
   {
-    src: '/SplashPhotos/splatterscapes.jpg',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/splatterscapes.jpg',
     width: 4,
     height: 3
   },
   {
-    src: '/SplashPhotos/mississippi.jpg',
+    src: 'https://julianenochsportfolio.s3-us-west-1.amazonaws.com/SplashImages/mississippi.jpg',
     width: 4,
     height: 3
   },
