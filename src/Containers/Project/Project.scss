@@ -1,0 +1,27 @@
+$primary-font: 'Dosis', sans-serif;
+$primary-text-color: #809064;
+
+.project__section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.project__img {
+  height: 300px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.project__title {
+  color: $primary-text-color;
+  font-family: $primary-font;
+}
+
+.links {
+  font-size: 1.5em;
+  &:hover {
+    text-shadow: 2px 2px 2px $primary-text-color;
+  }
+}

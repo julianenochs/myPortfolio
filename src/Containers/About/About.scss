@@ -1,0 +1,33 @@
+$secondary-color: #A35638;
+$primary-font: 'Dosis', sans-serif;
+$button-color: rgba(163, 86, 56, 0.71);
+.about-me__section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-me__text {
+  align-items: center;
+  border: 3px solid $secondary-color;
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-font;
+  font-size: 1.2em;
+  letter-spacing: .5px;
+  padding: 20px;
+  width: 80%;
+}
+
+.contact {
+  background-color: $button-color;
+  border: 1px solid $secondary-color;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px 2px $secondary-color;
+  color: white;
+  padding: 5px;
+  &:hover {
+    box-shadow: 1px 2px 3px 1px $secondary-color;
+  }
+}

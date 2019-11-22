@@ -1,0 +1,24 @@
+$primary-text-color: #809064;
+$primary-font: 'Dosis', sans-serif;
+$heading-font: 'Megrim', cursive;
+
+a {
+  color: $primary-text-color;
+  font-family: $primary-font;
+  text-decoration: none;
+}
+
+.navigation__links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3em;
+}
+
+h1 {
+  font-family: $heading-font;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-weight: 400;
+}
