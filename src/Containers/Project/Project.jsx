@@ -8,7 +8,6 @@ export const Project = ( {project} ) => {
         <a href={project.githubRepo} className='links'>
         <img src='https://julianenochsportfolio.s3-us-west-1.amazonaws.com/Images/github.png' />
           Github </a>
-        <a href={ project.deployedUrl } className='links'> Live Site </a>
     </section>
   )
 }

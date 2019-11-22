@@ -2,21 +2,30 @@ $primary-text-color: #809064;
 $primary-font: 'Dosis', sans-serif;
 $heading-font: 'Megrim', cursive;
 
+header {
+  height: 20vh;
+}
+
 a {
   color: $primary-text-color;
   font-family: $primary-font;
   text-decoration: none;
+  &:hover {
+    transform: translate(2px);
+  }
 }
 
 .navigation__links {
   display: flex;
   justify-content: space-evenly;
   font-size: 1.3em;
+  font-weight: 600;
 }
 
 h1 {
   font-family: $heading-font;
   font-size: 2.5em;
+  text-shadow: 1px 1px;
 }
 
 h3 {

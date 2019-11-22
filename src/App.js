@@ -6,6 +6,7 @@ import { About } from './Containers/About/About';
 import { Projects } from './Containers/Projects/Projects';
 import { Home } from './Containers/Home/Home';
 import { Resume } from './Containers/Resume/Resume';
+import { Footer } from './Containers/Footer/Footer';
 export class App extends Component {
   render() {
     return (
@@ -23,6 +24,7 @@ export class App extends Component {
       <Route path='/resume'
              render={ props => <Resume {...props} />}>
       </Route>
+      <Footer />
     </div>
   )
 }
