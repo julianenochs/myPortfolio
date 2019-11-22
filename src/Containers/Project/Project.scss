@@ -1,5 +1,5 @@
 $primary-font: 'Dosis', sans-serif;
-$primary-text-color: #809064;
+$primary-text-color: rgba(114, 98, 141, 1);
 
 .project__section {
   align-items: center;
@@ -20,8 +20,13 @@ $primary-text-color: #809064;
 }
 
 .links {
+  color: $primary-text-color;
   font-size: 1.5em;
   &:hover {
     text-shadow: 2px 2px 2px $primary-text-color;
   }
+}
+
+.github__icon {
+  margin-right: 10px;
 }

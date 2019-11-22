@@ -6,7 +6,7 @@ export const Project = ( {project} ) => {
         <h2 className='project__title'>{ project.title }</h2>
         <img src={ project.img } className='project__img' />
         <a href={project.githubRepo} className='links'>
-        <img src='https://julianenochsportfolio.s3-us-west-1.amazonaws.com/Images/github.png' />
+        <img src='https://julianenochsportfolio.s3-us-west-1.amazonaws.com/Images/github.png' className='github__icon'/>
           Github </a>
     </section>
   )

@@ -11,13 +11,13 @@ export const Header = () => {
       </Link>
       <ul className='navigation__links'>
         <Link to='/about'> 
-          About 
+          ABOUT 
         </Link>
         <Link to='/apps'> 
-          Apps  
+          APPS  
         </Link>
         <Link to='/resume'> 
-          Resume
+          RESUME
         </Link>
       </ul>
     </header>

@@ -1,6 +1,7 @@
 $primary-text-color: #809064;
 $primary-font: 'Dosis', sans-serif;
 $heading-font: 'Megrim', cursive;
+$secondary-font: 'Comfortaa', cursive;
 
 header {
   height: 20vh;
@@ -8,7 +9,7 @@ header {
 
 a {
   color: $primary-text-color;
-  font-family: $primary-font;
+  font-family: $secondary-font;
   text-decoration: none;
   &:hover {
     transform: translate(2px);
