@@ -16,9 +16,6 @@ export const Header = () => {
         <Link to='/apps'> 
           Apps  
         </Link>
-        <Link to='/meditations'> 
-          Meditations
-        </Link>
         <Link to='/resume'> 
           Resume
         </Link>
