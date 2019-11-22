@@ -1,6 +1,6 @@
-$secondary-color: rgba(114, 98, 141, 1);
+$secondary-color: rgba(127, 3, 48, 1);
 $primary-font: 'Dosis', sans-serif;
-$button-color: rgba(114, 98, 141, 0.8);
+$button-color: rgba(127, 3, 48, 0.87);
 
 .about-me__section {
   align-items: center;
@@ -36,6 +36,7 @@ $button-color: rgba(114, 98, 141, 0.8);
   box-shadow: 2px 3px 4px 2px $secondary-color;
   color: white;
   display: flex;
+  font-family: $primary-font;
   margin: 10px;
   padding: 5px;
   &:hover {

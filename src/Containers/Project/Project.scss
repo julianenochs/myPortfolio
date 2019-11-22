@@ -1,5 +1,5 @@
 $primary-font: 'Dosis', sans-serif;
-$primary-text-color: rgba(114, 98, 141, 1);
+$primary-text-color: rgba(3, 92, 127, 1);
 
 .project__section {
   align-items: center;
@@ -17,6 +17,7 @@ $primary-text-color: rgba(114, 98, 141, 1);
 .project__title {
   color: $primary-text-color;
   font-family: $primary-font;
+  text-decoration: underline;
 }
 
 .links {
