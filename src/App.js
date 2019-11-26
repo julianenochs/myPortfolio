@@ -7,6 +7,7 @@ import { Projects } from './Containers/Projects/Projects';
 import { Home } from './Containers/Home/Home';
 import { Resume } from './Containers/Resume/Resume';
 import { Footer } from './Containers/Footer/Footer';
+import { connect } from 'react-redux';
 export class App extends Component {
   render() {
     return (
@@ -30,4 +31,8 @@ export class App extends Component {
 }
 }
 
-export default App;
+const mapStateToProps = state => ({
+  isModalOpen: state.isModalOpen
+})
+
+export default connect(mapStateToProps)(App);

@@ -1,4 +1,4 @@
-export const openModal = (bool) => ({
+export const openModal = () => ({
   type: 'OPEN_MODAL',
-  bool
+  payload: {}
 });
