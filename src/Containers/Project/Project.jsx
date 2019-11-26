@@ -2,11 +2,14 @@ import React from 'react';
 import './Project.scss'
 import Modal from 'react-modal';
 
-export const Project = ( {project} ) => {
+export const Project = (props) => {
+
+  const {project, openModal} = props;
+
   return(
       <section className='project__section' >
         <h2 className='project__title'>{ project.title }</h2>
-        <button onClick={ openModal }> View Preview </button>
+        <button onClick={ () => openModal() }> View Preview </button>
         <Modal>
           <img src={ project.img } className='project__img' alt='preview of the application' />
         </ Modal>
@@ -15,4 +18,4 @@ export const Project = ( {project} ) => {
           Github </a>
       </section>
   )
-} 
+}

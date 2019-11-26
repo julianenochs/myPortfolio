@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Photo from "../../Photos/Photo";
 import arrayMove from "array-move";
