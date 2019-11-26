@@ -8,6 +8,6 @@ export const Projects = () => {
     return <Project project={project} key={i}/>
   })
   return(
-    <div className='project__card'> { projectCard } </div>
+      <div className='project__card'> { projectCard } </div>
   )
 }
