@@ -1,7 +1,8 @@
-$primary-font: 'Dosis', sans-serif;
+$primary-font: 'Darker Grotesque', sans-serif;
 $primary-text-color: rgba(3, 92, 127, 1);
 $button-color: rgba(127, 3, 48, 0.87);
 $secondary-color: rgba(127, 3, 48, 1);
+$secondary-font: 'Archivo Black', sans-serif;
 
 hr {
   height: 8px;
@@ -18,10 +19,17 @@ hr {
 }
 
 .project__text {
+  font-family: $primary-font;
+  font-size: 1.3em;
   width: 80%;
 }
 
 .project__img {
+  height: 200px;
+  width: 300px;
+}
+
+.project__preview {
   height: 70vh;
   margin-bottom: 10px;
   width: 70%;
@@ -29,8 +37,7 @@ hr {
 
 .project__title {
   color: $primary-text-color;
-  font-family: $primary-font;
-  text-decoration: underline;
+  font-family: $secondary-font;
 }
 
 .links {
@@ -38,6 +45,7 @@ hr {
   display: flex;
   color: $primary-text-color;
   font-size: 1.2em;
+  opacity: 1;
   &:hover {
     text-shadow: 1px 1px 1px $primary-text-color;
   }
@@ -60,19 +68,18 @@ hr {
 
 .apps__button {
   align-items: center;
-  background-color: $button-color;
-  border: 1px solid $secondary-color;
-  border-radius: 5px;
-  box-shadow: 2px 3px 4px 2px $secondary-color;
-  color: white;
+  border: 1px solid $primary-text-color;
+  box-shadow: 1px 2px 3px 1px $primary-text-color;
+  color: $primary-text-color;
   display: flex;
   font-family: $primary-font;
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   &:hover {
-    box-shadow: 1px 2px 3px 1px $secondary-color;
-    transform: translate(2px);
+    transition: all 0.3s ease;
+    background-color: $primary-text-color;
+    color: white;
   }
 }
 

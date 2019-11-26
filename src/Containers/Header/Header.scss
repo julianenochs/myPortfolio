@@ -1,7 +1,7 @@
 $primary-text-color: rgba(3, 92, 127, 1);
-$primary-font: 'Dosis', sans-serif;
 $heading-font: 'Megrim', cursive;
-$secondary-font: 'Comfortaa', cursive;
+$secondary-font: 'Archivo Black', sans-serif;
+
 
 header {
   height: 20vh;
@@ -11,16 +11,20 @@ a {
   color: $primary-text-color;
   font-family: $secondary-font;
   text-decoration: none;
+  opacity: .5;
   &:hover {
     transform: translate(2px);
+    transition: all 0.3s ease;
+  }
+  &:focus {
+    opacity: 1
   }
 }
 
 .navigation__links {
   display: flex;
   justify-content: space-evenly;
-  font-size: 1.3em;
-  font-weight: 600;
+  font-size: 1.5em;
 }
 
 h1 {
@@ -30,5 +34,7 @@ h1 {
 }
 
 h3 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.5em;
   font-weight: 400;
 }

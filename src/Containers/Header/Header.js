@@ -7,7 +7,7 @@ export const Header = () => {
     <header>
       <Link to='/'>
         <h1> Julian Enochs-Brown </h1>
-        <h3> Software Developer || Artist </h3>
+        <h3> Software Engineer || Artist </h3>
       </Link>
       <ul className='navigation__links'>
         <Link to='/about'> 
