@@ -23,7 +23,7 @@ export class Project extends Component {
     return (
       <section className='project__section' >
         <h2 className='project__title'>{project.title}</h2>
-        <img src={project.img} className='project__img'></img>
+        <img src={project.img} className='project__img' alt='thumbnail of project' />
         <p className='project__text'>{project.description}</p>
         <ReactModal className='modal'
           isOpen={this.state.isModalVisible}

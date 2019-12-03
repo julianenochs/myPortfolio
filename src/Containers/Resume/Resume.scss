@@ -3,3 +3,12 @@
   margin-top: 40px;
   width: 50%;
 }
+
+
+@media (max-width: 375px) {
+  .resume__section {
+    max-height: 60%;
+    overflow: scroll;
+    width: 100%;
+  }
+}
