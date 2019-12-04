@@ -55,6 +55,12 @@ $primary-text-color: rgba(3, 92, 127, 1);
   padding-right: 5px;
 }
 
+@media (max-width: 1025px) {
+  .headshot {
+    margin-top: 10%;
+  }
+}
+
 @media (max-width: 375px) {
   .headshot {
     height: 20%;
